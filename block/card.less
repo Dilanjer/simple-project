@@ -1,0 +1,62 @@
+// main: ../style/style.less
+.buy__card {
+  display: table;
+  width: 29%;
+  margin: 0 20px;
+
+  background-color: @my-color;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 5px #000;
+}
+.byu__title {
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+}
+.buy__price {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 500;
+  color: @my-color;
+  padding: 15px 0;
+  letter-spacing: 3px;
+
+  border-left: solid 2px @my-color;
+  border-right: solid 2px @my-color;
+
+  background-color: #fff;
+}
+.list {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.buy__button {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.btn {
+  text-decoration: none;
+  color: @my-color;
+  font-size: 20px;
+  font-weight: 600;
+
+  background-color: #fff;
+  padding: 10px 111px;
+
+  border-radius: 5px;
+
+  transition: background-color 0.2s linear, color 0.2s linear;
+  &:hover {
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+  }
+  &--send {
+    padding: 10px 50px;
+  }
+}

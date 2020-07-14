@@ -1,0 +1,58 @@
+// main: ../style/style.less
+.contacts {
+  background-color: @my-color;
+}
+.contact__title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.contact__content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__inputs {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.input {
+  width: 500px;
+  padding: 13px;
+  margin-bottom: 22px;
+
+  border-radius: 5px;
+
+  border: none;
+  &::placeholder {
+    font-size: 14px;
+    color: @my-color;
+  }
+}
+#textarea {
+  padding: 13px;
+  height: 170px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 25px;
+
+  &::placeholder {
+    font-size: 14px;
+    color: @my-color;
+  }
+}
+.info__item {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  img {
+    margin-right: 10px;
+  }
+  margin-bottom: 20px;
+}

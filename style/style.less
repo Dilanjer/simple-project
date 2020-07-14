@@ -1,0 +1,62 @@
+// compress: true
+
+// css normal
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  color: #333;
+}
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.warper {
+  padding: 50px 0;
+}
+.title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: @my-color;
+  &--center {
+    text-align: center;
+  }
+}
+// block import
+
+@import "../block/header.less";
+@import "../block/about.less";
+@import "../block/pulse.less";
+@import "../block/scren.less";
+@import "../block/revies.less";
+@import "../block/buy.less";
+@import "../block/card.less";
+@import "../block/contact.less";
+@import "../block/footer.less";
+
+// vars
+@import "vars.less";
